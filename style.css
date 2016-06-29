@@ -1,0 +1,43 @@
+body {
+	background-color: #c038ec;
+}
+.det{
+	transition: 0.7s;
+	background-color: #f8e8fd;
+	width: 300px;
+	height: auto;
+	margin: 100px 200px 0px 0px;
+	position: relative;
+	float: right;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	border-radius: 30px;
+}
+.det h2{
+	margin: 30px;
+	transition: 0.7s;
+}
+.det li{
+	margin:  0px 30px 0px 30px;
+	transition: 0.7s;
+}
+.container {
+	padding: 5px;
+	border-radius: 40;
+	background-color: #e6b8f5;
+}
+
+label{
+	margin-left: 30px;
+}
+
+
+#googleMap {
+	margin: 10px 40px 10px;
+	border-radius: 20px;
+}
+
+input {
+	border-radius: 3px;
+	background-color: #FFFFFF;
+	margin-left: 40px;
+}

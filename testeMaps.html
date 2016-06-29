@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<html>
+     <head>
+     <title>Meu Mapa</title>
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="style.css">
+     </head>
+     <body>
+        <form method="post" action="" id="">   
+            
+            <div class="container">
+            <!-- informacoes -->
+                <div id="divDetalhes" class="det"></div>
+                <label for="txtEndereco">MINHA MAE É LEGAL</label>
+                <input type="text" id="txtEndereco" name="txtEndereco" />
+                <input type="button" id="btnEndereco" name="btnEndereco" value="Mostrar no mapa"/>
+
+                <!-- INICIO DO MAPA!-->
+                <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key= AIzaSyBlZaqUfj9HhUl5nDY8LhlHJvCldhOvetI"></script>
+                
+                <script src="mapa.js"></script>
+
+                <div id="googleMap" style="width:650px;height:550px;"></div>
+             <!--FIM DO MAPA -->
+
+
+                <input type="submit" value="Enviar" name="btnEnviar" />
+         
+                <input type="hidden" id="txtLatitude" name="txtLatitude" />
+                <input type="hidden" id="txtLongitude" name="txtLongitude" />
+                
+
+            </div>
+
+        </form>
+
+            </body>
+</html>
