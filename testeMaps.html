@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html>
+     <head>
+     <title>Meu Mapa</title>
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="styles.css">
+     </head>
+     <body>
+        <form method="post" action="" id="">   
+            
+            
+            <!-- informacoes -->
+                <div id="divDetalhes" class="det"></div>
+                <label for="txtEndereco">Google Maps</label>
+                <input type="text" id="txtEndereco" name="txtEndereco" />
+                <input type="button" id="btnEndereco" class"button" name="btnEndereco" value="Mostrar no mapa"/>
+           
+
+                <!-- INICIO DO MAPA!-->
+                <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key= AIzaSyBlZaqUfj9HhUl5nDY8LhlHJvCldhOvetI"></script>
+
+                <div id="googleMap" style="width:650px;height:550px;"></div>
+<div class"detalhes">
+<script src="mapa.js"></script>
+</div>
+             <!--FIM DO MAPA -->
+
+
+
+                <input type="submit" value="Enviar" name="btnEnviar" />
+         
+                <input type="hidden" id="txtLatitude" name="txtLatitude" />
+                <input type="hidden" id="txtLongitude" name="txtLongitude" />
+                
+
+           
+
+        </form>
+
+            </body>
+</html>

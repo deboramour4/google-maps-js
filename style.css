@@ -1,0 +1,61 @@
+body {
+	background-color: #00BCD4;
+}
+.det{
+	transition: 0.7s;
+	background-color: #FFC107;
+	width: auto;
+	height: auto;
+	margin: auto;
+	position: relative;
+	float: right;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	border-radius: 30px;
+	box-shadow: 10px 10px 5px #333 ;
+	
+}
+
+.detalhes {
+padding: 40px;
+}
+
+.button {
+    background-color: #FFC107;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.det h2{
+	margin: 40px;
+	transition: 0.7s;
+}
+.det li{
+	margin:  40px;
+	transition: 0.7s;
+}
+
+
+label{
+	font-size: 20px
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin: 10 px 20px 10px 50px ;
+}
+
+
+#googleMap {
+	margin: 10px 40px 10px;
+	border-radius: 20px;
+}
+
+input {
+	border-radius: 3px;
+	background-color: #FFFFFF;
+	margin-left: 40px;
+}
