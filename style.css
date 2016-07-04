@@ -34,13 +34,15 @@ padding: 40px;
 
 .det h2{
 	margin: 40px;
-	transition: 0.7s;
+	transition: 2s;
+	font-size: 30px;
 }
 .det li{
-	margin:  40px;
-	transition: 0.7s;
+	margin:  20px 40px 20px 40px;
+	transition: 2s;
+	list-style: none;
+	font-size: 26px;
 }
-
 
 label{
 	font-size: 20px
@@ -52,10 +54,16 @@ label{
 #googleMap {
 	margin: 10px 40px 10px;
 	border-radius: 20px;
+	
 }
 
 input {
 	border-radius: 3px;
 	background-color: #FFFFFF;
 	margin-left: 40px;
+}
+
+#googleMaps {
+	width:650px;
+	height:550px;
 }
